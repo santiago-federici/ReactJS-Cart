@@ -18,7 +18,6 @@
     "rules": {
         "react/react-in-jsx-scope": "off",
         "react/prop-types": "off",
-        "eqeqeq": "off",
         "space-before-function-paren": "off"
     }
 }

@@ -1,0 +1,19 @@
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    list-style-type: none;
+}
+
+.card {
+    display: grid;
+    place-items: center;
+    gap: .5rem;
+    font-size: var(--fs-200);
+    height: fit-content;
+}
+
+.card-img {
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}

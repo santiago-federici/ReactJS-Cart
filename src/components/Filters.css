@@ -1,0 +1,39 @@
+header {
+    width: min(100% - 3rem, 70ch);
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+}
+
+.price-filter {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.price-filter>input {
+    padding: 0;
+}
+
+.category-filter {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.category-filter select {
+    border: none;
+    background: transparent;
+    border: 1px solid white;
+    padding: .2rem;
+    border-radius: 4px;
+}
+
+.category-filter select:focus {
+    border: 1px solid var(--clr-primary);
+}
+
+.category-filter select option {
+    background: var(--clr-surface);
+}

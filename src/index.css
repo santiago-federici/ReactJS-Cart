@@ -110,8 +110,6 @@ input {
 }
 
 button {
-  margin-top: 10rem;
-
   background: transparent;
   color: var(--clr-heading);
   border: 2px solid var(--clr-primary);
